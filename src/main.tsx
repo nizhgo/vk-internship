@@ -5,15 +5,15 @@ import './index.css'
 import {ConfigProvider} from "antd";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-      <ConfigProvider
-          theme={{
-              token: {
-                  colorPrimary: '#0077FF',
-              },
-          }}
-      >
-    <App />
-      </ConfigProvider>
-  </React.StrictMode>,
+    <React.StrictMode>
+        <ConfigProvider
+            theme={{
+                token: {
+                    colorPrimary: '#0077FF',
+                },
+            }}
+        >
+            <App/>
+        </ConfigProvider>
+    </React.StrictMode>,
 )

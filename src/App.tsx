@@ -1,9 +1,9 @@
 import ReservationForm from "./components/ReservationForm";
 import logo from './assets/logo.png';
-import {Card, AppContainer, Header, Title, Logo} from '../style.ts';
-const App = () =>
-{
-    return(
+import {AppContainer, Card, Header, Logo, Title} from '../style.ts';
+
+const App = () => {
+    return (
         <AppContainer>
             <Header>
                 <Logo src={logo} alt={'logo'}/>
